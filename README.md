@@ -1,3 +1,11 @@
+# Short description
+- The squeak perceives a single `--sound-increase` or `--sound-down` to increase and decrease the sound collaboratively. 
+- By using these arguments, you can bind the script to the sound keys
+	- Example: `sound_balancer --sound-up`
+- In this program there is a variable `desired difference`, which is responsible for the balance. By changing it, you can adjust the balance for yourself.
+- The script increases or decreases the sound by **5%**. This can be changed in this line:
+	- `let "right_volume=$current_right_volume $my_operator one_percent*5"`
+
 # Краткое описание
 - Скрипт принимает один аргумент `--sound-up` или `--sound-down` для увеличения и уменьшения звука соответственно. 
 - Благодаря этим аргументам можно привязать скрипт к клавишам звука
